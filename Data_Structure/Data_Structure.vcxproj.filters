@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\DLL">
+      <UniqueIdentifier>{4a22a3ae-9546-4191-a685-93db4cd71294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stack Queue">
+      <UniqueIdentifier>{d116a2ce-a48c-487d-8b31-c39526754170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BST">
+      <UniqueIdentifier>{0818601a-9bbe-49b3-b9a3-4c9a64cd14d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DLL.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DLL_sources.c">
+      <Filter>소스 파일\DLL</Filter>
     </ClCompile>
+    <ClCompile Include="DLL.c">
+      <Filter>소스 파일\DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.c">
+      <Filter>소스 파일\Stack Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.c">
+      <Filter>소스 파일\Stack Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="BST.c">
+      <Filter>소스 파일\BST</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLL.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
