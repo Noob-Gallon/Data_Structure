@@ -22,6 +22,15 @@
     <Filter Include="소스 파일\BST">
       <UniqueIdentifier>{0818601a-9bbe-49b3-b9a3-4c9a64cd14d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Priority Queue">
+      <UniqueIdentifier>{4fd8809f-7c66-419d-8ff8-135ef44956cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sort">
+      <UniqueIdentifier>{09f3fd5a-1ff6-480d-8d70-1671abc7b54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS/BFS">
+      <UniqueIdentifier>{63f1fda3-d144-4c0d-88f6-6e1f487cb4bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DLL_sources.c">
@@ -38,6 +47,24 @@
     </ClCompile>
     <ClCompile Include="BST.c">
       <Filter>소스 파일\BST</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxHeap.c">
+      <Filter>소스 파일\Priority Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge_sort.c">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Quick_sort.c">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.c">
+      <Filter>소스 파일\DFS/BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_recursive.c">
+      <Filter>소스 파일\DFS/BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.c">
+      <Filter>소스 파일\DFS/BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
